@@ -19,6 +19,7 @@ body {
 /* Typography */
 
 .title {
+  color: #F2EBDC;
   text-align: center;
   margin: 2rem 0 2.5rem;
   text-shadow: 0 0 4px #8C7D74;
@@ -31,11 +32,11 @@ h2 {
 }
 
 .top-text {
-  margin: 2em 0 0;
+  margin: 2.5em 0 0;
 }
 
 .feed-title {
-  margin: 2em 0;
+  margin: 2em 0 1.5em;
 }
 
 .user-name p {
@@ -94,7 +95,7 @@ form {
   display: flex;
   flex-direction: column;
   padding-left: 0;
-  /* margin-bottom: 4.5rem; */
+  margin-bottom: 4.5rem;
 }
 
 li {
@@ -171,11 +172,11 @@ a:hover, a:active, a:visited {
     }
 
     .top-text {
-      margin: 2.5em 0 0;
+      margin: 3em 0 0;
     }
 
     .feed-title {
-      margin: 2.5em 0;
+      margin: 2.5em 0 1.5em;
     }
 
     .bottom h4 {
