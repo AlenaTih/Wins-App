@@ -48,7 +48,7 @@ h2 {
   height: 100vh;
   width: 100%;
   overflow-x: hidden; /* Prevents horizontal scrolling */
-  padding: 2.5rem;
+  padding: 2.5rem 2.5rem 4.5rem;
 }
 
 /* .view-logged-out {
@@ -119,7 +119,7 @@ img {
 /* @media (width >= 600px) */
 @media (min-width: 600px) {
     /* Typography */
-    
+
     .title {
       text-align: center;
       margin: 2.5rem 0 2.5rem;
