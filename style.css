@@ -5,14 +5,14 @@
 html,
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: url("images/background-image.png") no-repeat;
+  /* background: url("images/background-image.png") no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   /* height: 100%;
   width: 100%; */
   padding: 0;
   margin: 0;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 /* Typography */
@@ -40,6 +40,10 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: url("images/background-image.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
   width: 100%;
   overflow-x: hidden; /* Prevents horizontal scrolling */
   padding: 2.5rem;
