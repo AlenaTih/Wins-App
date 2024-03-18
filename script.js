@@ -49,6 +49,7 @@ async function signInWithGoogle() {
     // After user signed in, render their wins
     // renderWinsFromDatabase(response.user.uid)
     renderWinsFromDatabase(auth.currentUser.uid)
+    console.log(auth.currentUser.uid)
 
     checkAuthentication()
   } catch (error) {
@@ -97,8 +98,9 @@ function checkAuthentication() {
     if (user) {
         // User is authenticated, render their wins
         console.log("Logged in")
-        // renderWinsFromDatabase(user.uid)
-        renderWinsFromDatabase(auth.currentUser.uid)
+        // renderWinsFromDatabase(auth.currentUser.uid)
+        renderWinsFromDatabase(user.uid)
+        console.log(user.uid)
         loginButton.style.display = "none"
         logoutButton.style.display = "block"
         document.getElementById("view-logged-out").style.display = "none"
