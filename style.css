@@ -27,6 +27,7 @@ body {
 h2 {
   font-size: 1.125rem;
   text-align: center;
+  text-shadow: 0 0 4px #8C7D74;
 }
 
 .top-text {
@@ -35,6 +36,10 @@ h2 {
 
 .feed-title {
   margin: 1.5rem 0;
+}
+
+.user-name p {
+  text-shadow: 0 0 4px #8C7D74;
 }
 
 /* Layout */
@@ -74,6 +79,7 @@ form {
   padding: 0.5em;
   margin-bottom: 1em;
   /* border: 1px solid #ccc; */
+  border: none;
   border-radius: 0.5em;
 }
 
@@ -90,7 +96,7 @@ li {
   background-color: rgba(235, 238, 244, 0.8);
   list-style-type: none;
   width: 100%;
-  padding: 1.125em;
+  padding: 1.125em 2em;
   border: 1px solid #ccc;
   border-radius: 0.5em;
   margin-bottom: 1.5em;
