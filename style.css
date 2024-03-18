@@ -31,15 +31,22 @@ h2 {
 }
 
 .top-text {
-  margin: 1.5rem 0 0;
+  margin: 2em 0 0;
 }
 
 .feed-title {
-  margin: 1.5rem 0;
+  margin: 2em 0;
 }
 
 .user-name p {
   text-shadow: 0 0 4px #8C7D74;
+}
+
+.bottom h4 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
 }
 
 /* Layout */
@@ -70,7 +77,7 @@ h2 {
 form {
   display: flex;
   flex-direction: column;
-  margin: 2em 0;
+  margin: 2.5em 0;
 }
 
 .type-input, .win-input {
@@ -102,6 +109,15 @@ li {
   margin-bottom: 1.5em;
 }
 
+.bottom {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  padding: 2.5em 0 0 0;
+}
+
 /* Buttons */
 
 .save-button,
@@ -118,6 +134,10 @@ li {
   box-shadow: 0 0 4px #8C7D74;
 }
 
+.save-button {
+  font-weight: bold;
+}
+
 button:hover {
   background-color: #F7EFE2;
 }
@@ -127,6 +147,16 @@ button:hover {
 img {
   height: 100%;
   width: 100%;
+}
+
+/* Links */
+
+a {
+  color: #6989FA;
+}
+
+a:hover, a:active, a:visited {
+  color: #B4C4FC;
 }
 
 /* Media queries */
@@ -139,5 +169,17 @@ img {
       text-align: center;
       margin: 2.5rem 0 2.5rem;
     }
+
+    .top-text {
+      margin: 2.5em 0 0;
+    }
+
+    .feed-title {
+      margin: 2.5em 0;
+    }
+
+    .bottom h4 {
+      font-size: 1rem;
+  }
 
 }
