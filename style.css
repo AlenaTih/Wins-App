@@ -36,7 +36,7 @@ h2 {
 }
 
 .feed-title {
-  margin: 2em 0 1.5em;
+  margin: 2em 0;
 }
 
 .user-name p {
@@ -176,7 +176,7 @@ a:hover, a:active, a:visited {
     }
 
     .feed-title {
-      margin: 2.5em 0 1.5em;
+      margin: 2.5em 0;
     }
 
     .bottom h4 {
