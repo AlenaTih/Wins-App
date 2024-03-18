@@ -20,7 +20,7 @@ body {
 
 .title {
   text-align: center;
-  margin-top: 1rem;
+  margin: 2rem 0 2.5rem;
 }
 
 h2 {
@@ -112,4 +112,17 @@ li {
 img {
   height: 100%;
   width: 100%;
+}
+
+/* Media queries */
+
+/* @media (width >= 600px) */
+@media (min-width: 600px) {
+    /* Typography */
+    
+    .title {
+      text-align: center;
+      margin: 2.5rem 0 2.5rem;
+    }
+
 }
