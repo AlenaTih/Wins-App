@@ -1,0 +1,102 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: url("./win-app.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  /* height: 100vh; */
+}
+
+/* Typography */
+
+h1 {
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.top-text {
+  margin: 1.5rem 0 0;
+}
+
+.feed-title {
+  margin: 1.5rem 0;
+}
+
+/* Layout */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+  padding: 2.5rem;
+}
+
+/* .view-logged-out {
+  display: none;
+} */
+
+.view-logged-in {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.view-logged-out {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+}
+
+.type-input, .win-input {
+  font-size: 1rem;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+.wins-feed {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  /* margin-bottom: 4.5rem; */
+}
+
+li {
+  list-style-type: none;
+  padding: 1.125em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+/* Buttons */
+
+.save-button,
+.login-button,
+.logout-button {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}

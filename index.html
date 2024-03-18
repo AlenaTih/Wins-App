@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wins App</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+    <div class="container">
+      <h1>Achievements App</h1>
+
+      <div class="view-logged-out" id="view-logged-out">
+        <button class="login-button" id="login-button">Continue with Google</button>
+      </div>
+
+      <div class="view-logged-in" id="view-logged-in">
+        <button class="logout-button" id="logout-button"">Log out</button>
+        <h2 class="top-text">What are you proud of today/lately?</h2>
+        
+        <form>
+          <input class="type-input" type="text" name="type" id="type-input" placeholder="Category or type">
+          <textarea class="win-input" placeholder="Type your win here" id="win-input" required></textarea>
+          <button class="save-button" type="submit" id="save-button"">Save</button>
+        </form>
+
+          <div class="user-name" id="user-name"></div>
+          <h2 class="feed-title">The feed of you wins you can put on your CV (or tell your mom)</h2>
+          <ul class="wins-feed" id="wins-feed">
+            <!-- Achievements are here -->
+          </ul>
+      </div>
+        
+    </div>
+    
+    <script src="script.js" type="module"></script>
+  </body>
+
+</html>
