@@ -1,0 +1,12 @@
+{
+    "name": "Wins App",
+    "short_name": "Wins App",
+    "icons":
+        [
+            {"src": "android-chrome-192x192.png", "sizes": "192x192", "type": "image/x-icon"},
+            {"src": "android-chrome-512x512.png", "sizes": "512x512", "type": "image/x-icon"}
+        ],
+    "theme_color":"#E6B6D8",
+    "background_color":"#E6B6D8",
+    "display":"standalone"
+}
