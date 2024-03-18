@@ -51,10 +51,6 @@ h2 {
   padding: 2.5rem 2.5rem 4.5rem;
 }
 
-/* .view-logged-out {
-  display: none;
-} */
-
 .view-logged-in {
   display: none;
   flex-direction: column;
