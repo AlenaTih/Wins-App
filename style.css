@@ -5,7 +5,7 @@
 html,
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: url("./win-app.jpg");
+  background: url("images/background-image.png");
   background-size: cover;
   background-position: center;
   /* height: 100%;
