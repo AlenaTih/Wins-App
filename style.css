@@ -21,6 +21,7 @@ body {
 .title {
   text-align: center;
   margin: 2rem 0 2.5rem;
+  text-shadow: 0 0 4px #8C7D74;
 }
 
 h2 {
@@ -68,10 +69,11 @@ form {
 }
 
 .type-input, .win-input {
+  color: #272728;
   font-size: 1rem;
   padding: 0.5em;
   margin-bottom: 1em;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   border-radius: 0.5em;
 }
 
@@ -83,7 +85,11 @@ form {
 }
 
 li {
+  color: #272728;
+  /* background-color: #EED6D3; */
+  background-color: rgba(235, 238, 244, 0.8);
   list-style-type: none;
+  width: 100%;
   padding: 1.125em;
   border: 1px solid #ccc;
   border-radius: 0.5em;
@@ -96,11 +102,18 @@ li {
 .login-button,
 .logout-button {
   font-family: inherit;
+  color: #272728;
   font-size: 1rem;
+  background-color: whitesmoke;
   padding: 0.5em 1em;
   border: none;
   border-radius: 0.5em;
   cursor: pointer;
+  box-shadow: 0 0 4px #8C7D74;
+}
+
+button:hover {
+  background-color: #F7EFE2;
 }
 
 /* Images */
