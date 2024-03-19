@@ -27,7 +27,7 @@ h2 {
 }
 
 .top-text {
-  margin: 2.5em 0;
+  margin: 2.5em 0 0;
 }
 
 .feed-title {
@@ -83,7 +83,7 @@ form {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 2.5rem 0 4rem;
+  margin: 3rem 0 4rem;
 }
 
 .type-input, .win-input {
@@ -193,7 +193,7 @@ a:hover, a:active, a:visited {
 
     .top-text {
       font-size: 1.25rem;
-      margin: 3em 0;
+      margin: 3em 0 0;
     }
 
     .feed-title {
