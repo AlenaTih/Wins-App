@@ -115,6 +115,7 @@ li {
 
 .newWin {
   display: flex;
+  justify-content: space-between;
 }
 
 .newWinText {

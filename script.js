@@ -77,23 +77,6 @@ async function signOutFromApp() {
   }
 }
 
-// onAuthStateChanged(auth, (user) => {
-//   if (user) {
-//     console.log("Logged in")
-//     loginButton.style.display = "none"
-//     document.getElementById("view-logged-out").style.display = "none"
-//     document.getElementById("view-logged-in").style.display = "flex"
-//     // const user = JSON.parse(sessionStorage.getItem('user'))
-//     console.log(user.uid)
-//     renderWinsFromDatabase(user.uid)
-//   } else {
-//       console.log("Logged out")
-//       loginButton.style.display = "block"
-//       document.getElementById("view-logged-out").style.display = "flex"
-//       document.getElementById("view-logged-in").style.display = "none"
-//   }
-// })
-
 // Function to check if user is already authenticated
 function checkAuthentication() {
     const user = JSON.parse(sessionStorage.getItem('user'))
@@ -206,10 +189,10 @@ function renderWins(win, id) {
     <div class="newWinText">
       <h3>${win.type}</h3>
       <p>${win.achievement}</p>
-      </div>
-    <i class="fa-light fa-trash-can" data-remove="${id}"></i>
-  </div>
-  `
+    </div>
+    <i class="fa-regular fa-trash-can" data-remove="${id}"></i>
+  </div>`
+
   winsFeed.prepend(newWin)
 }
 
@@ -222,7 +205,5 @@ function removeItem(itemId) {
   let itemRef = ref(database, `AchievementsData/${userId}/${itemId}`)
 
   remove(itemRef)
-
-  // checkAuthentication()
 }
   
