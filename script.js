@@ -154,8 +154,8 @@ function renderWinsFromDatabase(userId) {
 function renderWins(win, id) {
 
   userName.innerHTML = `
-  <h2>${auth.currentUser.displayName}</h2>
-  <p>${auth.currentUser.email}<p>`
+  <h2>${auth.currentUser.displayName}</h2>`
+  // <p>${auth.currentUser.email}<p>`
   
   const newWin = document.createElement("li")
   newWin.setAttribute("id", id)
