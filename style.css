@@ -87,6 +87,7 @@ form {
 }
 
 .type-input, .win-input {
+  font-family: inherit;
   color: #272728;
   font-size: 1rem;
   width: 100%;
