@@ -14,6 +14,7 @@ Save your achievements as you make them, and then add them to your CV or tell yo
 - CSS
 - JavaScript
 - Firebase Realtime Database
+- Font Awesome CDN
 
 ## Database
 
