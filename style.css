@@ -6,17 +6,12 @@ html,
 body {
   color: whitesmoke;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* background: url("images/background-image.png") no-repeat;
-  background-size: cover;
-  background-position: center; */
-  /* height: 100%;
-  width: 100%; */
   padding: 0;
   margin: 0;
   /* height: 100vh; */
 }
 
-/* Typography */
+/* Typography and icons */
 
 .title {
   color: #F2EBDC;
@@ -41,6 +36,10 @@ h2 {
 
 .user-name p {
   text-shadow: 0 0 4px #8C7D74;
+}
+
+.icon-remove {
+  font-size: 1rem;
 }
 
 .bottom h4 {
@@ -179,7 +178,7 @@ a:hover, a:active, a:visited {
 
 /* @media (width >= 600px) */
 @media (min-width: 600px) {
-    /* Typography */
+    /* Typography and icons */
 
     .title {
       font-size: 2.5rem;
@@ -195,6 +194,10 @@ a:hover, a:active, a:visited {
     .feed-title {
       font-size: 1.25rem;
       margin: 2.5em 0;
+    }
+
+    .icon-remove {
+      font-size: 1.125rem;
     }
 
     .bottom h4 {

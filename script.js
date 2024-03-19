@@ -190,7 +190,7 @@ function renderWins(win, id) {
       <h3>${win.type}</h3>
       <p>${win.achievement}</p>
     </div>
-    <i class="fa-regular fa-trash-can" data-remove="${id}"></i>
+    <i class="fa-regular fa-trash-can icon-remove" data-remove="${id}"></i>
   </div>`
 
   winsFeed.prepend(newWin)
