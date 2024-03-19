@@ -114,10 +114,10 @@ let inputValue = {
         alert("Please type in your achievement ❤️")
         return
     } else {
-        // alert("Wow, great win! It is saved! ❤️"️)
+      alert("Wow, great win! It is saved! ❤️")
 
-        inputValue.type = typeInput.value
-        inputValue.achievement = winInput.value
+      inputValue.type = typeInput.value
+      inputValue.achievement = winInput.value
 
       const user = JSON.parse(sessionStorage.getItem('user'))
 
@@ -125,7 +125,7 @@ let inputValue = {
 
       push(userReference, inputValue)
 
-        // form.reset()
+      // form.reset()
       typeInput.value = ""
       winInput.value = ""
     }
@@ -171,6 +171,8 @@ function renderWinsFromDatabase(userId) {
         renderWins(winsObj[key], key)
       }
 
+    } else {
+      winsFeed.textContent += "No items here... yet"
     }
   })
 }
