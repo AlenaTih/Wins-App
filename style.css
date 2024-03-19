@@ -100,6 +100,7 @@ form {
 .wins-feed {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   padding-left: 0;
   margin: 1em 0 4.5em;

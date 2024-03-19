@@ -146,7 +146,7 @@ function renderWinsFromDatabase(userId) {
       }
 
     } else {
-      winsFeed.textContent = "No items here... yet"
+      winsFeed.textContent = "No records here... yet"
     }
   })
 }
