@@ -86,7 +86,7 @@ form {
   color: #272728;
   font-size: 1rem;
   width: 100%;
-  padding: 0.5em;
+  padding: 1em;
   margin-bottom: 1em;
   /* border: 1px solid #ccc; */
   border: none;
@@ -107,7 +107,7 @@ li {
   background-color: rgba(235, 238, 244, 0.8);
   list-style-type: none;
   width: 100%;
-  padding: 1.125em 2em;
+  padding: 2em;
   border: 1px solid #ccc;
   border-radius: 0.5em;
   margin-bottom: 1.5em;
@@ -141,6 +141,7 @@ li {
 .save-button {
   font-weight: bold;
   width: 100%;
+  padding: 1em;
 }
 
 button:hover {
@@ -190,7 +191,7 @@ a:hover, a:active, a:visited {
     /* Layout */
 
     form {
-      width: 60%;
+      max-width: 60%;
     }
 
     .wins-feed {
