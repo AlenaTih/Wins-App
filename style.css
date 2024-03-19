@@ -94,6 +94,7 @@ form {
 .wins-feed {
   display: flex;
   flex-direction: column;
+  width: 100%;
   padding-left: 0;
   margin-bottom: 4.5rem;
 }
