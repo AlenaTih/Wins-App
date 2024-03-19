@@ -130,33 +130,7 @@ let inputValue = {
       winInput.value = ""
     }
   })
-
-// function saveButtonClick() {
-//   if (saveButton) {
-//     if (!winInput.value.trim()) {
-//         alert("Please type in your achievement ❤️")
-//         return
-//     } else {
-//         // alert("Wow, great win! It is saved! ❤️"️)
-
-//         inputValue.type = typeInput.value
-//         inputValue.achievement = winInput.value
-
-//       const user = JSON.parse(sessionStorage.getItem('user'))
-
-//       let userReference = ref(database, `AchievementsData/${user.uid}`)
-
-//       push(userReference, inputValue)
-
-//         // form.reset()
-//       typeInput.value = ""
-//       winInput.value = ""
-//     }
-//   }
-
-// }
     
-
 function renderWinsFromDatabase(userId) {
   let userWinsRef = ref(database, `AchievementsData/${userId}`)
 
@@ -172,7 +146,7 @@ function renderWinsFromDatabase(userId) {
       }
 
     } else {
-      winsFeed.textContent += "No items here... yet"
+      winsFeed.textContent = "No items here... yet"
     }
   })
 }
