@@ -187,8 +187,8 @@ function renderWins(win, id) {
   newWin.innerHTML = `
   <div class="newWin">
     <div class="newWinText">
-      <h3>${win.type}</h3>
-      <p>${win.achievement}</p>
+      <h3 class="win-type">${win.type}</h3>
+      <p class="achievement">${win.achievement}</p>
     </div>
     <i class="fa-regular fa-trash-can icon-remove" data-remove="${id}"></i>
   </div>`

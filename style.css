@@ -16,7 +16,7 @@ body {
 .title {
   color: #F2EBDC;
   text-align: center;
-  margin: 2rem 0 2.5rem;
+  margin: 2rem 0 3rem;
   text-shadow: 0 0 4px #8C7D74;
 }
 
@@ -38,8 +38,13 @@ h2 {
   text-shadow: 0 0 4px #8C7D74;
 }
 
+.achievement {
+  margin-top: 0;
+}
+
 .icon-remove {
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .bottom h4 {
@@ -78,7 +83,7 @@ form {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 2.5em 0;
+  margin: 2.5rem 0 3rem;
 }
 
 .type-input, .win-input {
@@ -183,7 +188,7 @@ a:hover, a:active, a:visited {
     .title {
       font-size: 2.5rem;
       text-align: center;
-      margin: 2.5rem 0 2.5rem;
+      margin: 2.5rem 0 3.5rem;
     }
 
     .top-text {
@@ -212,6 +217,10 @@ a:hover, a:active, a:visited {
 
     .wins-feed {
       width: 80%;
+    }
+
+    li {
+      padding: 2.5em;
     }
 
 }
