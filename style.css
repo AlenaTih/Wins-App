@@ -16,7 +16,7 @@ body {
 .title {
   color: #F2EBDC;
   text-align: center;
-  margin: 2.5rem 0 3.5rem;
+  margin: 3rem 0 3.5rem;
   text-shadow: 0 0 4px #8C7D74;
 }
 
@@ -189,7 +189,7 @@ a:hover, a:active, a:visited {
     .title {
       font-size: 2.5rem;
       text-align: center;
-      margin: 2.5rem 0 3.5rem;
+      margin: 3rem 0 3.5rem;
     }
 
     .top-text {
