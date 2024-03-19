@@ -131,7 +131,7 @@ li {
   color: #272728;
   font-size: 1rem;
   background-color: whitesmoke;
-  padding: 0.5em 1em;
+  padding: 1em;
   border: none;
   border-radius: 0.5em;
   cursor: pointer;
@@ -139,9 +139,9 @@ li {
 }
 
 .save-button {
+  background-color: #EED6D3;
   font-weight: bold;
   width: 100%;
-  padding: 1em;
 }
 
 button:hover {
@@ -172,15 +172,18 @@ a:hover, a:active, a:visited {
     /* Typography */
 
     .title {
+      font-size: 2.5rem;
       text-align: center;
       margin: 2.5rem 0 2.5rem;
     }
 
     .top-text {
+      font-size: 1.25rem;
       margin: 3em 0 0;
     }
 
     .feed-title {
+      font-size: 1.25rem;
       margin: 2.5em 0;
     }
 
