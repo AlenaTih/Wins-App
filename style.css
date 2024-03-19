@@ -113,6 +113,15 @@ li {
   margin-bottom: 1.5em;
 }
 
+.newWin {
+  display: flex;
+}
+
+.newWinText {
+  display: flex;
+  flex-direction: column;
+}
+
 .bottom {
   display: flex;
   width: 100%;

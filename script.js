@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
-import { getDatabase, ref, push, onValue } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
+import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js"
 
@@ -32,6 +32,8 @@ document.addEventListener("click", function(e) {
         signInWithGoogle()
     } else if (e.target.id === "logout-button") {
         signOutFromApp()
+    } else if (e.target.dataset.remove) {
+      removeItem(e.target.dataset.remove)
     }
 })
 
@@ -200,9 +202,27 @@ function renderWins(win, id) {
   newWin.setAttribute("id", id)
   
   newWin.innerHTML = `
-    <h3>${win.type}</h3>
-    <p>${win.achievement}</p>
+  <div class="newWin">
+    <div class="newWinText">
+      <h3>${win.type}</h3>
+      <p>${win.achievement}</p>
+      </div>
+    <i class="fa-light fa-trash-can" data-remove="${id}"></i>
+  </div>
   `
   winsFeed.prepend(newWin)
+}
+
+function removeItem(itemId) {
+
+  const user = JSON.parse(sessionStorage.getItem('user'))
+
+  const userId = user.uid
+
+  let itemRef = ref(database, `AchievementsData/${userId}/${itemId}`)
+
+  remove(itemRef)
+
+  // checkAuthentication()
 }
   
